@@ -48,7 +48,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/TU-USUARIO/financeworld-pro.git
+git remote add origin https://github.com/damianrm1299-oss/financeworld-pro.git
 git push -u origin main
 ```
 
@@ -61,7 +61,7 @@ git push -u origin main
    - Folder: `/ (root)`
 4. Pulsa **"Save"**.
 5. Espera 1-3 minutos.
-6. Verás un mensaje verde con tu URL: `https://TU-USUARIO.github.io/financeworld-pro/`
+6. Verás un mensaje verde con tu URL: `https://damianrm1299-oss.github.io/financeworldpro/`
 
 🎉 **¡Tu web ya está en internet!**
 
@@ -69,9 +69,9 @@ git push -u origin main
 
 ## 🔧 PARTE 2: Personalizar antes de pedir AdSense
 
-### Paso 5: Reemplazar "TU-USUARIO" en todos los archivos
+### Paso 5: Reemplazar "damianrm1299-oss" en todos los archivos
 
-Busca y reemplaza `TU-USUARIO` por tu usuario real de GitHub en:
+Busca y reemplaza `damianrm1299-oss` por tu usuario real de GitHub en:
 
 - `index.html`
 - `robots.txt`
@@ -82,7 +82,7 @@ Busca y reemplaza `TU-USUARIO` por tu usuario real de GitHub en:
 1. Abre cada archivo en GitHub
 2. Pulsa el icono del lápiz ✏️ (Edit)
 3. Pulsa `Ctrl+H` (Find & Replace) o usa el buscador
-4. Sustituye `TU-USUARIO` por tu usuario
+4. Sustituye `damianrm1299-oss` por tu usuario
 5. Pulsa "Commit changes"
 
 ### Paso 6: Configurar tu dominio personalizado (OPCIONAL pero recomendado para AdSense)
@@ -100,7 +100,7 @@ Busca y reemplaza `TU-USUARIO` por tu usuario real de GitHub en:
    A    @    185.199.109.153
    A    @    185.199.110.153
    A    @    185.199.111.153
-   CNAME www TU-USUARIO.github.io
+   CNAME www damianrm1299-oss.github.io
    ```
 4. En GitHub: Settings → Pages → Custom domain → introduce tu dominio.
 
@@ -123,7 +123,7 @@ Durante este tiempo:
 1. Ve a **[adsense.google.com](https://adsense.google.com)**.
 2. Pulsa **"Empezar"** y entra con tu cuenta de Google.
 3. Introduce:
-   - **URL de tu sitio web:** `https://TU-USUARIO.github.io/financeworld-pro/` (o tu dominio)
+   - **URL de tu sitio web:** `https://damianrm1299-oss.github.io/financeworldpro/` (o tu dominio)
    - **País:** España
    - **Acepta** los términos.
 4. Configura cómo quieres cobrar (cuenta bancaria, IBAN, etc.).
@@ -188,7 +188,7 @@ AdSense te dará un **código de verificación** que parece esto:
 
 - **Más contenido = más dinero.** Añade nuevos artículos regularmente.
 - **SEO:** Registra tu sitio en [Google Search Console](https://search.google.com/search-console).
-- **Sitemap:** Envía `https://TU-USUARIO.github.io/financeworld-pro/sitemap.xml` a Search Console.
+- **Sitemap:** Envía `https://damianrm1299-oss.github.io/financeworldpro/sitemap.xml` a Search Console.
 - **Mide:** Usa [Google Analytics](https://analytics.google.com) para ver visitantes.
 
 ---

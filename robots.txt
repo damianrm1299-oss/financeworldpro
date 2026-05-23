@@ -10,4 +10,4 @@ User-agent: AdsBot-Google
 Allow: /
 
 # Sitemap
-Sitemap: https://TU-USUARIO.github.io/financeworld-pro/sitemap.xml
+Sitemap: https://damianrm1299-oss.github.io/financeworldpro/sitemap.xml

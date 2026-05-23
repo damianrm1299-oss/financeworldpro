@@ -3,28 +3,114 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>404 - Página no encontrada | FinanceWorld PRO</title>
+<title>404 · Página No Encontrada · FinanceWorld</title>
 <meta name="robots" content="noindex, follow">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500&family=JetBrains+Mono:wght@400;500&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='serif'>F</text></svg>">
+
 <style>
-  body { background:#0a0e1a; color:#e2e8f0; font-family:'Segoe UI',sans-serif; margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:20px; }
-  .container { max-width:600px; }
-  .code { font-size:8rem; font-weight:900; color:#00d4ff; line-height:1; margin-bottom:10px; text-shadow:0 0 30px rgba(0,212,255,0.3); }
-  h1 { color:#ffd700; font-size:1.8rem; margin-bottom:15px; }
-  p { color:#94a3b8; font-size:1.05rem; line-height:1.6; margin-bottom:25px; }
-  .btn { background:#00d4ff; color:#000; padding:14px 30px; border-radius:8px; text-decoration:none; font-weight:700; display:inline-block; transition:all 0.2s; }
-  .btn:hover { background:#00b8d9; transform:translateY(-2px); }
-  .icon { font-size:5rem; margin-bottom:20px; animation:float 3s ease-in-out infinite; }
-  @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-15px)} }
+:root {
+  --paper: #f4ede0; --ink: #1a1612; --ink-soft: #3a342c;
+  --crimson: #8b0000; --gold: #7a6647; --muted: #7a6f5d;
+  --rule-hard: #1a1612;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  background: var(--paper); color: var(--ink);
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 17px; line-height: 1.6;
+  min-height: 100vh;
+  display: flex; flex-direction: column;
+  background-image: radial-gradient(rgba(26,22,18,0.025) 1px, transparent 1px),
+    radial-gradient(rgba(26,22,18,0.018) 1px, transparent 1px);
+  background-size: 23px 23px, 41px 41px;
+}
+.masthead-mini {
+  border-bottom: 4px double var(--rule-hard);
+  padding: 22px 40px; text-align: center;
+}
+.masthead-mini .wordmark {
+  font-family: 'DM Serif Display', serif; font-size: 42px;
+  letter-spacing: -0.02em; line-height: 1;
+}
+.masthead-mini a { color: inherit; text-decoration: none; }
+.masthead-mini .tagline {
+  font-style: italic; font-size: 13px; color: var(--ink-soft); margin-top: 4px;
+}
+main {
+  flex: 1; display: flex; align-items: center; justify-content: center;
+  text-align: center; padding: 60px 40px;
+}
+.error-content { max-width: 600px; }
+.error-label {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 14px; letter-spacing: 0.4em; color: var(--crimson);
+  margin-bottom: 16px;
+}
+.error-code {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(120px, 22vw, 240px);
+  line-height: 0.85; color: var(--ink);
+  letter-spacing: -0.04em;
+  margin-bottom: 8px;
+}
+.error-code .zero { color: var(--crimson); font-style: italic; }
+.error-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 32px; line-height: 1.15;
+  margin-bottom: 14px;
+}
+.error-desc {
+  font-family: 'EB Garamond', serif; font-style: italic;
+  font-size: 19px; color: var(--ink-soft);
+  margin-bottom: 36px;
+}
+.cta-btn {
+  display: inline-block; padding: 14px 32px; background: var(--ink);
+  color: var(--paper); text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif; font-size: 14px;
+  letter-spacing: 0.4em; transition: background 0.2s;
+}
+.cta-btn:hover { background: var(--crimson); }
+.ornament {
+  font-family: 'DM Serif Display', serif; font-size: 24px;
+  color: var(--gold); margin: 30px 0; letter-spacing: 0.5em;
+}
+.footer-line {
+  text-align: center; padding: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--muted);
+  border-top: 1px solid rgba(26,22,18,0.18);
+}
+::selection { background: var(--crimson); color: var(--paper); }
 </style>
 </head>
 <body>
-<div class="container">
-  <div class="icon">📉</div>
-  <div class="code">404</div>
-  <h1>¡Esta página no cotiza en bolsa!</h1>
-  <p>La página que buscas no existe o ha sido movida. Pero no te preocupes, el mercado sigue abierto.</p>
-  <a href="index.html" class="btn">🏠 Volver al Mercado</a>
-</div>
+
+<header class="masthead-mini">
+  <div class="wordmark"><a href="index.html">FinanceWorld</a></div>
+  <div class="tagline">The Daily Markets Gazette</div>
+</header>
+
+<main>
+  <div class="error-content">
+    <div class="error-label">ERROR · ARTÍCULO NO PUBLICADO</div>
+    <div class="error-code">4<span class="zero">0</span>4</div>
+    <h1 class="error-title">Esta página no <em style="font-style:italic;color:var(--crimson);">cotiza en bolsa</em></h1>
+    <p class="error-desc">El artículo que busca no existe, ha sido archivado o nunca llegó a publicarse. Pero el mercado sigue abierto y la redacción sigue activa.</p>
+    <a href="index.html" class="cta-btn">VOLVER A PORTADA</a>
+    <div class="ornament">❦ &middot; ❦ &middot; ❦</div>
+  </div>
+</main>
+
+<footer class="footer-line">
+  © MMXXVI FINANCEWORLD · TODOS LOS DERECHOS RESERVADOS
+</footer>
+
 </body>
 </html>

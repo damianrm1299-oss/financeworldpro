@@ -3,166 +3,242 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sobre Nosotros - FinanceWorld PRO</title>
-<meta name="description" content="Conoce a FinanceWorld PRO: nuestra misión, visión y por qué somos tu portal de referencia en información financiera global.">
+<title>Sobre Nosotros · FinanceWorld</title>
+<meta name="description" content="Conoce a FinanceWorld: nuestra misión, valores editoriales y por qué somos un portal de referencia en información financiera global.">
 <meta name="robots" content="index, follow">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+<link rel="canonical" href="https://damianrm1299-oss.github.io/financeworldpro/sobre-nosotros.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='serif'>F</text></svg>">
+
 <style>
-  :root { --bg:#0a0e1a; --bg2:#111827; --bg3:#1f2937; --accent:#00d4ff; --gold:#ffd700; --green:#00ff88; --text:#e2e8f0; --text2:#94a3b8; --border:#2d3748; }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:var(--bg); color:var(--text); font-family:'Segoe UI',sans-serif; line-height:1.7; }
-  header { background:linear-gradient(135deg,#0a0e1a 0%,#111827 100%); border-bottom:1px solid var(--accent); padding:20px; }
-  .container { max-width:1000px; margin:0 auto; padding:20px; }
-  .logo { font-size:1.6rem; font-weight:900; color:var(--accent); text-align:center; }
-  .logo span { color:var(--gold); }
-  .nav-back { display:inline-block; margin-bottom:20px; color:var(--accent); text-decoration:none; font-weight:600; }
-  h1 { color:var(--accent); margin:20px 0; font-size:2.2rem; border-left:5px solid var(--gold); padding-left:15px; }
-  h2 { color:var(--gold); margin:25px 0 12px; font-size:1.4rem; }
-  p, li { margin-bottom:10px; font-size:1rem; }
-  .card { background:var(--bg2); border:1px solid var(--border); border-radius:12px; padding:24px; margin:20px 0; }
-  .hero { text-align:center; padding:40px 20px; background:linear-gradient(135deg,var(--bg2) 0%,var(--bg3) 100%); border-radius:16px; margin-bottom:30px; }
-  .hero h1 { display:inline-block; font-size:2.5rem; border:none; padding:0; }
-  .hero p { font-size:1.15rem; color:var(--text2); margin-top:10px; }
-  .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px; margin-top:20px; }
-  .feature { background:var(--bg3); border:1px solid var(--border); border-radius:10px; padding:20px; text-align:center; transition:all 0.2s; }
-  .feature:hover { border-color:var(--accent); transform:translateY(-3px); }
-  .feature-icon { font-size:2.5rem; margin-bottom:10px; }
-  .feature h3 { color:var(--accent); margin-bottom:8px; font-size:1.05rem; }
-  .feature p { font-size:0.9rem; color:var(--text2); }
-  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:15px; margin:25px 0; }
-  .stat { background:var(--bg3); border:1px solid var(--border); border-radius:10px; padding:20px; text-align:center; }
-  .stat-num { font-size:2rem; font-weight:900; color:var(--accent); }
-  .stat-label { font-size:0.85rem; color:var(--text2); margin-top:5px; }
-  ul { margin-left:30px; }
-  a { color:var(--accent); }
-  footer { background:var(--bg2); border-top:1px solid var(--border); text-align:center; padding:25px; color:var(--text2); font-size:0.85rem; margin-top:40px; }
-  footer a { color:var(--accent); margin:0 10px; }
-  .quote { background:rgba(0,212,255,0.08); border-left:4px solid var(--accent); padding:20px; border-radius:8px; font-style:italic; margin:20px 0; }
+:root {
+  --paper: #f4ede0; --paper-2: #ebe2d2; --ink: #1a1612; --ink-soft: #3a342c;
+  --crimson: #8b0000; --emerald: #1a4d2e; --gold: #7a6647;
+  --rule: rgba(26, 22, 18, 0.18); --rule-hard: #1a1612; --muted: #7a6f5d;
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'EB Garamond', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-condensed: 'Bebas Neue', sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  background: var(--paper); color: var(--ink); font-family: var(--font-body);
+  font-size: 17px; line-height: 1.65;
+  background-image: radial-gradient(rgba(26,22,18,0.025) 1px, transparent 1px),
+    radial-gradient(rgba(26,22,18,0.018) 1px, transparent 1px);
+  background-size: 23px 23px, 41px 41px;
+}
+.masthead-mini { border-bottom: 4px double var(--rule-hard); padding: 22px 40px; text-align: center; }
+.masthead-mini .wordmark { font-family: var(--font-display); font-size: 42px; letter-spacing: -0.02em; line-height: 1; margin-bottom: 4px; }
+.masthead-mini .tagline { font-family: var(--font-body); font-style: italic; font-size: 13px; color: var(--ink-soft); }
+.masthead-mini a { color: inherit; text-decoration: none; }
+.container { max-width: 980px; margin: 0 auto; padding: 0 40px; }
+.breadcrumb { padding: 22px 0 0; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+.breadcrumb a { color: var(--ink-soft); text-decoration: none; }
+.breadcrumb a:hover { color: var(--crimson); }
+.breadcrumb .sep { margin: 0 8px; color: var(--gold); }
+.article-header { padding: 40px 0; border-bottom: 2px solid var(--rule-hard); margin-bottom: 30px; text-align: center; }
+.article-section-label { font-family: var(--font-condensed); font-size: 13px; letter-spacing: 0.35em; color: var(--crimson); margin-bottom: 14px; }
+.article-section-label::before { content: "§ "; color: var(--gold); }
+.article-title { font-family: var(--font-display); font-size: clamp(48px, 7vw, 88px); line-height: 1; letter-spacing: -0.025em; margin-bottom: 16px; font-weight: 400; }
+.article-title em { font-style: italic; color: var(--crimson); }
+.article-lede { font-family: var(--font-body); font-style: italic; font-size: 22px; color: var(--ink-soft); line-height: 1.5; max-width: 740px; margin: 0 auto; }
+.article-body { padding-bottom: 60px; }
+.article-body h2 { font-family: var(--font-display); font-size: 32px; line-height: 1.15; margin: 40px 0 16px; letter-spacing: -0.01em; }
+.article-body p { margin-bottom: 14px; line-height: 1.7; font-size: 17px; }
+.article-body p::first-letter { font-family: var(--font-display); font-size: 4em; float: left; line-height: 0.85; padding: 4px 8px 0 0; color: var(--crimson); }
+.article-body p ~ p::first-letter { float: none; font-size: 1em; padding: 0; color: inherit; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0; border: 1px solid var(--rule-hard); margin: 30px 0; }
+.feature-cell { padding: 24px; border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.feature-mark { font-family: var(--font-display); font-size: 36px; color: var(--crimson); line-height: 1; margin-bottom: 8px; }
+.feature-title { font-family: var(--font-display); font-size: 18px; line-height: 1.2; margin-bottom: 6px; }
+.feature-desc { font-family: var(--font-body); font-style: italic; font-size: 14px; color: var(--ink-soft); line-height: 1.5; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0; border-top: 2px solid var(--rule-hard); border-bottom: 2px solid var(--rule-hard); margin: 30px 0; }
+.stat-cell { padding: 20px; text-align: center; border-right: 1px solid var(--rule); }
+.stat-num { font-family: var(--font-mono); font-size: 38px; font-weight: 700; line-height: 1; letter-spacing: -0.02em; color: var(--ink); font-variant-numeric: tabular-nums; }
+.stat-lbl { font-family: var(--font-body); font-style: italic; font-size: 13px; color: var(--ink-soft); margin-top: 8px; }
+.principles { margin: 30px 0; }
+.principle-row { display: grid; grid-template-columns: 60px 1fr; gap: 24px; padding: 18px 0; border-bottom: 1px solid var(--rule); align-items: baseline; }
+.principle-row:last-child { border: none; }
+.principle-num { font-family: var(--font-display); font-size: 32px; color: var(--crimson); line-height: 1; }
+.principle-title { font-family: var(--font-display); font-size: 22px; line-height: 1.2; margin-bottom: 4px; }
+.principle-desc { font-family: var(--font-body); font-size: 15px; color: var(--ink-soft); line-height: 1.55; }
+.editorial-quote { padding: 40px 0; text-align: center; }
+.editorial-quote .quote-mark { font-family: var(--font-display); font-size: 120px; line-height: 0.7; color: var(--crimson); font-style: italic; }
+.editorial-quote .quote-text { font-family: var(--font-display); font-size: 28px; line-height: 1.25; max-width: 720px; margin: 10px auto 16px; }
+.editorial-quote .quote-attr { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-soft); }
+.colophon { background: var(--ink); color: var(--paper); padding: 50px 40px 25px; margin-top: 40px; }
+.colophon .container { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 40px; max-width: 1200px; }
+@media (max-width: 700px) { .colophon .container { grid-template-columns: 1fr; } }
+.colophon h4 { font-family: var(--font-condensed); font-size: 13px; letter-spacing: 0.3em; margin-bottom: 12px; opacity: 0.7; }
+.colophon p, .colophon a { font-family: var(--font-body); font-size: 14px; color: var(--paper); opacity: 0.85; line-height: 1.5; display: block; margin-bottom: 5px; text-decoration: none; }
+.colophon a:hover { opacity: 1; }
+.colophon .wordmark-small { font-family: var(--font-display); font-size: 38px; margin-bottom: 14px; }
+.colophon-bottom { max-width: 1200px; margin: 40px auto 0; padding: 16px 0 0; border-top: 1px solid rgba(244,237,224,0.2); font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.5; text-align: center; }
+::selection { background: var(--crimson); color: var(--paper); }
 </style>
 </head>
 <body>
-<header>
-  <div class="logo">Finance<span>World</span> PRO</div>
+
+<header class="masthead-mini">
+  <div class="wordmark"><a href="index.html">FinanceWorld</a></div>
+  <div class="tagline">The Daily Markets Gazette · La publicación</div>
 </header>
 
 <div class="container">
-  <a href="index.html" class="nav-back">← Volver al inicio</a>
+  <nav class="breadcrumb">
+    <a href="index.html">Inicio</a> <span class="sep">›</span>
+    <span>Sobre Nosotros</span>
+  </nav>
 
-  <div class="hero">
-    <h1>🌍 Sobre FinanceWorld PRO</h1>
-    <p>Tu portal de referencia para información financiera global</p>
-  </div>
+  <header class="article-header">
+    <div class="article-section-label">Manifiesto Editorial</div>
+    <h1 class="article-title">Sobre <em>FinanceWorld</em></h1>
+    <p class="article-lede">Una publicación de información financiera global concebida con el rigor del periodismo económico y la sensibilidad estética de la literatura.</p>
+  </header>
 
-  <div class="card">
-    <h2>📖 Quiénes somos</h2>
-    <p>FinanceWorld PRO es un proyecto educativo e informativo creado con la misión de <strong>democratizar el acceso a la información financiera</strong>. Creemos que cualquier persona, sin importar su nivel de experiencia, debería tener acceso a información clara, completa y actualizada sobre los mercados financieros mundiales.</p>
-    <p>Nuestra plataforma reúne en un único lugar cotizaciones de las principales bolsas del mundo, criptomonedas, materias primas, divisas y noticias económicas relevantes, todo presentado de forma accesible y visual.</p>
-  </div>
+  <div class="article-body">
+    <h2>Quiénes somos</h2>
+    <p>FinanceWorld es un proyecto editorial concebido con la misión de democratizar el acceso a la información financiera. Creemos que cualquier persona, sin importar su nivel de experiencia, debería tener acceso a información clara, completa y actualizada sobre los mercados financieros mundiales — y que esa información merece ser tratada con la misma elegancia que cualquier otra forma de conocimiento.</p>
+    <p>Nuestra plataforma reúne en un único espacio las cotizaciones de las principales bolsas del mundo, criptomonedas, materias primas, divisas y noticias económicas relevantes, presentadas con un tratamiento visual que aspira a estar a la altura del contenido.</p>
 
-  <div class="card">
-    <h2>🎯 Nuestra misión</h2>
-    <p>Ofrecer una plataforma <strong>gratuita y accesible</strong> que ayude a los usuarios a:</p>
-    <ul>
-      <li>📊 Entender el funcionamiento de los mercados financieros globales.</li>
-      <li>📚 Aprender sobre inversiones de forma didáctica.</li>
-      <li>🧮 Realizar simulaciones y cálculos financieros con nuestra calculadora.</li>
-      <li>📰 Mantenerse informados con noticias actualizadas del sector.</li>
-      <li>🌐 Conocer las principales bolsas y mercados del mundo.</li>
-    </ul>
-  </div>
+    <h2>Nuestra misión</h2>
+    <p>Ofrecer una plataforma gratuita y accesible que ayude a los usuarios a comprender el funcionamiento de los mercados, aprender sobre inversiones de forma didáctica, realizar simulaciones financieras y mantenerse informados con noticias actualizadas.</p>
 
-  <div class="card">
-    <h2>🚀 Qué ofrecemos</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="feature-icon">📈</div>
-        <h3>Cotizaciones Globales</h3>
-        <p>Más de 50 acciones, 16 índices y 20 materias primas</p>
+    <h2>Qué encontrarás aquí</h2>
+    <div class="feature-grid">
+      <div class="feature-cell">
+        <div class="feature-mark">§</div>
+        <div class="feature-title">Cotizaciones Globales</div>
+        <div class="feature-desc">Más de 50 acciones, 16 índices y 20 materias primas en tiempo real.</div>
       </div>
-      <div class="feature">
-        <div class="feature-icon">₿</div>
-        <h3>Criptomonedas</h3>
-        <p>Las 15 principales cripto del mercado actualizadas</p>
+      <div class="feature-cell">
+        <div class="feature-mark">₿</div>
+        <div class="feature-title">Criptomonedas</div>
+        <div class="feature-desc">Las 15 principales criptomonedas del mercado actualizadas.</div>
       </div>
-      <div class="feature">
-        <div class="feature-icon">🧮</div>
-        <h3>Calculadora</h3>
-        <p>Simulador profesional de inversión con interés compuesto</p>
+      <div class="feature-cell">
+        <div class="feature-mark">∑</div>
+        <div class="feature-title">Calculadora</div>
+        <div class="feature-desc">Simulador profesional con interés compuesto y proyecciones.</div>
       </div>
-      <div class="feature">
-        <div class="feature-icon">📰</div>
-        <h3>Noticias</h3>
-        <p>+30 artículos sobre actualidad financiera</p>
+      <div class="feature-cell">
+        <div class="feature-mark">¶</div>
+        <div class="feature-title">Noticias</div>
+        <div class="feature-desc">+30 artículos sobre la actualidad financiera global.</div>
       </div>
-      <div class="feature">
-        <div class="feature-icon">📊</div>
-        <h3>Gráficos</h3>
-        <p>Análisis técnico con períodos de 1D a 1 año</p>
+      <div class="feature-cell">
+        <div class="feature-mark">∫</div>
+        <div class="feature-title">Gráficos</div>
+        <div class="feature-desc">Análisis técnico con períodos desde 1 día a 1 año.</div>
       </div>
-      <div class="feature">
-        <div class="feature-icon">🌍</div>
-        <h3>24 Bolsas Mundiales</h3>
-        <p>Información de las principales bolsas del planeta</p>
+      <div class="feature-cell">
+        <div class="feature-mark">⌘</div>
+        <div class="feature-title">Bolsas Mundiales</div>
+        <div class="feature-desc">Información de las 24 principales bolsas del planeta.</div>
       </div>
     </div>
-  </div>
 
-  <div class="card">
-    <h2>📊 FinanceWorld en números</h2>
-    <div class="stats">
-      <div class="stat">
+    <h2>FinanceWorld en cifras</h2>
+    <div class="stats-grid">
+      <div class="stat-cell">
         <div class="stat-num">50+</div>
-        <div class="stat-label">Empresas en bolsa</div>
+        <div class="stat-lbl">Empresas en bolsa</div>
       </div>
-      <div class="stat">
+      <div class="stat-cell">
         <div class="stat-num">15</div>
-        <div class="stat-label">Criptomonedas</div>
+        <div class="stat-lbl">Criptomonedas</div>
       </div>
-      <div class="stat">
+      <div class="stat-cell">
         <div class="stat-num">20</div>
-        <div class="stat-label">Materias primas</div>
+        <div class="stat-lbl">Materias primas</div>
       </div>
-      <div class="stat">
+      <div class="stat-cell">
         <div class="stat-num">24</div>
-        <div class="stat-label">Bolsas mundiales</div>
+        <div class="stat-lbl">Bolsas mundiales</div>
       </div>
-      <div class="stat">
+      <div class="stat-cell">
         <div class="stat-num">30+</div>
-        <div class="stat-label">Noticias</div>
+        <div class="stat-lbl">Artículos</div>
       </div>
     </div>
-  </div>
 
-  <div class="card">
-    <h2>💡 Nuestros valores</h2>
-    <ul>
-      <li><strong>🔓 Transparencia:</strong> Toda la información es abierta y accesible.</li>
-      <li><strong>🎓 Educación:</strong> Priorizamos el aprendizaje del usuario.</li>
-      <li><strong>⚖️ Independencia:</strong> No promovemos productos financieros específicos.</li>
-      <li><strong>🔒 Privacidad:</strong> Respetamos al máximo los datos de nuestros usuarios.</li>
-      <li><strong>🌱 Mejora continua:</strong> Trabajamos para añadir nuevas funciones constantemente.</li>
-    </ul>
-  </div>
+    <h2>Nuestros principios editoriales</h2>
+    <div class="principles">
+      <div class="principle-row">
+        <div class="principle-num">I.</div>
+        <div>
+          <div class="principle-title">Transparencia</div>
+          <div class="principle-desc">Toda la información es abierta y accesible. No ocultamos métodos, fuentes ni intenciones.</div>
+        </div>
+      </div>
+      <div class="principle-row">
+        <div class="principle-num">II.</div>
+        <div>
+          <div class="principle-title">Educación</div>
+          <div class="principle-desc">Priorizamos el aprendizaje del usuario sobre cualquier otro objetivo.</div>
+        </div>
+      </div>
+      <div class="principle-row">
+        <div class="principle-num">III.</div>
+        <div>
+          <div class="principle-title">Independencia</div>
+          <div class="principle-desc">No promovemos productos financieros específicos. No tenemos acuerdos comerciales con brokers.</div>
+        </div>
+      </div>
+      <div class="principle-row">
+        <div class="principle-num">IV.</div>
+        <div>
+          <div class="principle-title">Privacidad</div>
+          <div class="principle-desc">Respetamos al máximo los datos de nuestros usuarios. RGPD-compliant por diseño.</div>
+        </div>
+      </div>
+      <div class="principle-row">
+        <div class="principle-num">V.</div>
+        <div>
+          <div class="principle-title">Mejora continua</div>
+          <div class="principle-desc">Trabajamos cada día para añadir nuevas funciones y refinar las existentes.</div>
+        </div>
+      </div>
+    </div>
 
-  <div class="quote">
-    "El conocimiento financiero es la mejor inversión que puedes hacer. En FinanceWorld PRO trabajamos cada día para hacer ese conocimiento accesible a todos." — Equipo FinanceWorld PRO
-  </div>
+    <div class="editorial-quote">
+      <div class="quote-mark">"</div>
+      <div class="quote-text">El conocimiento financiero es la mejor inversión que puede hacerse. En FinanceWorld trabajamos cada día para hacer ese conocimiento accesible a todos.</div>
+      <div class="quote-attr">— REDACCIÓN DE FINANCEWORLD</div>
+    </div>
 
-  <div class="card">
-    <h2>🤝 Contáctanos</h2>
-    <p>¿Tienes sugerencias, preguntas o quieres colaborar con nosotros? Visita nuestra <a href="contacto.html">página de contacto</a> o escríbenos directamente a <strong>contacto@financeworld-pro.com</strong>.</p>
+    <h2>Contacto</h2>
+    <p>¿Sugerencias, preguntas o propuestas? Puede escribirnos a <a href="mailto:contacto@financeworld.com" style="color:var(--crimson);">contacto@financeworld.com</a> o utilizar nuestra <a href="contacto.html" style="color:var(--crimson);">página de contacto</a>.</p>
   </div>
 </div>
 
-<footer>
-  <p>FinanceWorld PRO &copy; 2026 | Todos los derechos reservados</p>
-  <p style="margin-top:10px;">
-    <a href="index.html">Inicio</a> ·
-    <a href="sobre-nosotros.html">Sobre Nosotros</a> ·
-    <a href="contacto.html">Contacto</a> ·
-    <a href="terminos.html">Términos</a> ·
-    <a href="privacidad.html">Privacidad</a>
-  </p>
+<footer class="colophon">
+  <div class="container">
+    <div>
+      <div class="wordmark-small">FinanceWorld</div>
+      <p style="font-style:italic;opacity:0.75;">The Daily Markets Gazette. Una publicación de información financiera global.</p>
+    </div>
+    <div>
+      <h4>Secciones</h4>
+      <a href="index.html">Inicio</a>
+      <a href="index.html#indices">Índices Globales</a>
+      <a href="index.html#noticias">Noticias del Día</a>
+    </div>
+    <div>
+      <h4>Información Legal</h4>
+      <a href="sobre-nosotros.html">Sobre Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="privacidad.html">Política de Privacidad</a>
+      <a href="terminos.html">Términos y Condiciones</a>
+    </div>
+  </div>
+  <div class="colophon-bottom">© MMXXVI FINANCEWORLD · TODOS LOS DERECHOS RESERVADOS</div>
 </footer>
+
 </body>
 </html>

@@ -1,70 +1,120 @@
-# 📈 FinanceWorld PRO
+# 📈 FinanceWorld
 
-Portal financiero global con cotizaciones en tiempo real, criptomonedas, materias primas, noticias del mercado y calculadora de inversión.
+> *The Daily Markets Gazette* — Una publicación editorial de información financiera global.
 
-## 🚀 Demo en vivo
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdamianrm1299-oss%2Ffinanceworldpro)
 
-🔗 **[Ver demo](https://TU-USUARIO.github.io/financeworld-pro/)**
+## 🌐 Demo en vivo
+
+🔗 **[financeworldpro.vercel.app](https://financeworldpro.vercel.app)** (próximamente tras despliegue)
+
+---
 
 ## ✨ Características
 
-- 📊 **16 índices bursátiles mundiales** (S&P 500, NASDAQ, Dow Jones, IBEX 35, Nikkei...)
-- 🏢 **50+ acciones de empresas globales** (Apple, NVIDIA, Tesla, Microsoft...)
-- ₿ **15 criptomonedas** (Bitcoin, Ethereum, Solana, XRP...)
-- ⛏️ **20 materias primas** (Oro, Petróleo, Cobre, Litio...)
-- 📅 **20 contratos de futuros**
-- 💱 **12 pares de divisas (FOREX)**
-- 🌍 **24 bolsas de valores mundiales**
-- 🧮 **Calculadora de inversión** con interés compuesto
-- 📰 **+30 noticias financieras**
-- 📈 **Gráficos interactivos** (1D, 1S, 1M, 3M, 1A)
-- 😨 **Índice Miedo & Codicia**
-- 🕐 **Reloj NY/Londres/Tokio**
+### 🎨 Diseño
+- **Estética editorial** inspirada en Bloomberg Businessweek + WSJ + Monocle
+- **Tipografía cuidada:** DM Serif Display + EB Garamond + JetBrains Mono
+- **Paleta:** papel crema, tinta negra, acentos carmesí y oro envejecido
+- **Animaciones sutiles** con `prefers-reduced-motion` respetado
+- **Responsive** y optimizado para dispositivos móviles
 
-## 🛠️ Tecnologías
+### 📊 Contenido
+- **16 índices bursátiles mundiales** (S&P 500, NASDAQ, Dow Jones, IBEX 35, Nikkei...)
+- **40+ acciones globales** (Apple, NVIDIA, Tesla, Microsoft, Samsung, LVMH...)
+- **15 criptomonedas** (Bitcoin, Ethereum, Solana, XRP...)
+- **20 materias primas** (Oro, Petróleo WTI, Brent, Cobre, Litio, Uranio...)
+- **12 pares FOREX**
+- **24 bolsas mundiales** con capitalización
+- **30+ artículos** de noticias financieras
+- **Calculadora de inversión** con interés compuesto
+- **Gráficos en tiempo real** (1D / 1S / 1M / 3M / 1A)
 
-- HTML5 + CSS3 + JavaScript Vanilla
+### 🛠️ Stack técnico
+- HTML5 + CSS3 + JavaScript vanilla
 - Chart.js para gráficos
-- Sin dependencias de backend
+- **Sin backend** — todo cliente, perfecto para Vercel/GitHub Pages
+- **Sin dependencias npm** — carga ultrarrápida
+
+### 🚀 Optimización
+- ✅ SEO completo (meta tags, Open Graph, Twitter Cards, Schema.org)
+- ✅ Sitemap.xml y robots.txt
+- ✅ ads.txt para Google AdSense
+- ✅ Banner de cookies RGPD/GDPR
+- ✅ Headers de seguridad (vercel.json)
+- ✅ Disclaimer financiero legal
+
+---
 
 ## 📁 Estructura del proyecto
 
 ```
-financeworld-pro/
-├── index.html              # Página principal
-├── sobre-nosotros.html     # Página About
-├── contacto.html           # Formulario de contacto
-├── privacidad.html         # Política de Privacidad (RGPD)
-├── terminos.html           # Términos y Condiciones
-├── 404.html                # Página de error
-├── ads.txt                 # Google AdSense
-├── robots.txt              # SEO
-├── sitemap.xml             # SEO
+financeworldpro/
+├── index.html              # Página principal editorial
+├── privacidad.html         # Política de privacidad (RGPD)
+├── terminos.html           # Términos y condiciones
+├── sobre-nosotros.html     # Manifiesto editorial
+├── contacto.html           # Formulario + FAQ
+├── 404.html                # Página de error editorial
+├── ads.txt                 # Verificación AdSense
+├── robots.txt              # Rastreo SEO
+├── sitemap.xml             # Mapa del sitio
+├── vercel.json             # Configuración Vercel
 ├── README.md               # Este archivo
-└── GUIA_ADSENSE.md         # Guía paso a paso para activar AdSense
+├── GUIA_ADSENSE.md         # Guía paso a paso AdSense
+└── DESPLIEGUE_FINAL.md     # Instrucciones de despliegue
 ```
+
+---
+
+## 🚀 Despliegue
+
+### Opción A — Vercel (Recomendado)
+
+1. Conecta tu repositorio de GitHub a Vercel: [vercel.com/new](https://vercel.com/new)
+2. Selecciona el repositorio `damianrm1299-oss/financeworldpro`
+3. Configuración:
+   - **Framework Preset:** Other (es HTML estático)
+   - **Build Command:** _(vacío)_
+   - **Output Directory:** _(vacío)_
+4. Pulsa **Deploy**
+5. Tu web estará en `https://financeworldpro.vercel.app` en ~30 segundos
+
+### Opción B — GitHub Pages
+
+1. Settings → Pages → Source: `main` branch, `/` root
+2. URL: `https://damianrm1299-oss.github.io/financeworldpro/`
+
+---
 
 ## 💰 Monetización con Google AdSense
 
-Este proyecto está **preparado para Google AdSense**. Sigue la [GUÍA DE ADSENSE](GUIA_ADSENSE.md) para activar los anuncios.
+Este proyecto está **preparado** para Google AdSense. Sigue [GUIA_ADSENSE.md](GUIA_ADSENSE.md):
 
-## 🚀 Cómo desplegar en GitHub Pages
+1. Esperar 2-4 semanas con tráfico orgánico
+2. Solicitar en [adsense.google.com](https://adsense.google.com)
+3. Reemplazar `ca-pub-XXXXXXXXXXXXXXXX` por tu Publisher ID real en:
+   - `index.html` (4 ocurrencias)
+   - `ads.txt`
 
-1. Crea un repositorio en GitHub llamado `financeworld-pro`
-2. Sube todos los archivos
-3. Ve a **Settings → Pages**
-4. En **Source**, selecciona la rama `main` y carpeta `/ (root)`
-5. Guarda los cambios
-6. En 2-3 minutos tu web estará en: `https://TU-USUARIO.github.io/financeworld-pro/`
+---
 
 ## ⚠️ Aviso Legal
 
-Los datos mostrados son simulados con fines educativos e informativos. **No constituyen asesoramiento financiero.**
+Los datos mostrados en este sitio son **simulados** con fines educativos e informativos. **No constituyen asesoramiento financiero** ni recomendación de inversión.
+
+---
 
 ## 📜 Licencia
 
-MIT License — Libre uso con atribución.
+MIT License — Uso libre con atribución.
+
+---
 
 ## 📧 Contacto
 
-contacto@financeworld-pro.com
+contacto@financeworld.com
+
+---
+
+*Diseñado con la skill `frontend-design` de Anthropic. Construido con HTML, CSS y atención obsesiva a la tipografía.*

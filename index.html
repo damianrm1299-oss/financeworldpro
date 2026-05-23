@@ -11,13 +11,13 @@
 <meta name="author" content="FinanceWorld">
 <meta name="robots" content="index, follow">
 <meta name="language" content="Spanish">
-<link rel="canonical" href="https://TU-USUARIO.github.io/financeworld-pro/">
+<link rel="canonical" href="https://damianrm1299-oss.github.io/financeworldpro/">
 
 <!-- OPEN GRAPH -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="FinanceWorld · The Daily Markets Gazette">
 <meta property="og:description" content="Una crónica diaria de los mercados globales.">
-<meta property="og:url" content="https://TU-USUARIO.github.io/financeworld-pro/">
+<meta property="og:url" content="https://damianrm1299-oss.github.io/financeworldpro/">
 <meta property="og:locale" content="es_ES">
 
 <!-- TWITTER CARD -->
@@ -47,7 +47,7 @@
   "@type": "WebSite",
   "name": "FinanceWorld",
   "alternateName": "The Daily Markets Gazette",
-  "url": "https://TU-USUARIO.github.io/financeworld-pro/",
+  "url": "https://damianrm1299-oss.github.io/financeworldpro/",
   "description": "Portal editorial de información financiera global con cotizaciones en tiempo real",
   "publisher": { "@type": "Organization", "name": "FinanceWorld" }
 }
@@ -901,6 +901,51 @@ html, body {
 ::-webkit-scrollbar-thumb:hover { background: var(--ink); }
 
 ::selection { background: var(--crimson); color: var(--paper); }
+
+/* ============================================================
+   POLISH — Smooth animations, scroll-reveal, micro-interactions
+   ============================================================ */
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: no-preference) {
+  section { opacity: 0; transform: translateY(20px); transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1); }
+  section.in-view { opacity: 1; transform: translateY(0); }
+
+  .index-cell { transition: background 0.25s ease, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); }
+  .index-cell:hover { transform: translateY(-2px); }
+
+  .crypto-cell, .commodity-cell { transition: background 0.2s ease; }
+  .crypto-cell:hover, .commodity-cell:hover { background: var(--paper-2); }
+
+  .pull-quote .quote-mark { transition: color 0.5s; }
+  .pull-quote:hover .quote-mark { color: var(--ink); }
+
+  .news-item { transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+  .news-item:hover { transform: translateX(4px); }
+
+  .exchange-row { transition: background 0.2s ease, padding-left 0.3s ease; }
+  .exchange-row:hover { background: var(--paper-2); padding-left: 12px; }
+
+  .ornament { animation: ornament-breathe 5s ease-in-out infinite; }
+  @keyframes ornament-breathe {
+    0%, 100% { letter-spacing: 0.5em; opacity: 0.7; }
+    50% { letter-spacing: 0.7em; opacity: 1; }
+  }
+
+  .wordmark { animation: wordmark-settle 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  @keyframes wordmark-settle {
+    from { opacity: 0; letter-spacing: -0.06em; }
+    to { opacity: 1; letter-spacing: -0.025em; }
+  }
+}
+
+:focus-visible { outline: 2px solid var(--crimson); outline-offset: 3px; }
+
+@media print {
+  body { background: white; color: black; }
+  .ad-slot, #cookie-banner, .ticker-strip { display: none !important; }
+  .colophon { background: white; color: black; border-top: 2px solid black; }
+}
 
 /* ============================================================
    EDITORIAL ADDITIONS — Disclaimer, Ad Slots, Cookie Banner
@@ -1884,6 +1929,21 @@ document.addEventListener('DOMContentLoaded', () => {
   updateClock();
   setInterval(updateClock, 1000);
   setInterval(liveUpdate, 3500);
+
+  // Scroll-reveal: secciones aparecen elegantemente al entrar en viewport
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in-view');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -80px 0px', threshold: 0.05 });
+    document.querySelectorAll('section').forEach(s => observer.observe(s));
+  } else {
+    document.querySelectorAll('section').forEach(s => s.classList.add('in-view'));
+  }
 
   document.getElementById('chart-asset').addEventListener('change', function() {
     const data = {

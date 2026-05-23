@@ -108,16 +108,16 @@ Si arrastrar muchos archivos da problemas, **descomprime primero el ZIP**:
 5. **Espera 2-3 minutos** y refresca la página
 6. Verás un mensaje verde con tu URL:
    ```
-   ✅ Your site is live at https://TU-USUARIO.github.io/financeworld-pro/
+   ✅ Your site is live at https://damianrm1299-oss.github.io/financeworldpro/
    ```
 
 🎉 **¡Tu web ya está online!** Cualquier persona en el mundo puede entrar.
 
 ---
 
-## PASO 5 — Reemplazar `TU-USUARIO` en los archivos
+## PASO 5 — Reemplazar `damianrm1299-oss` en los archivos
 
-Tienes que reemplazar `TU-USUARIO` por tu usuario real de GitHub.
+Tienes que reemplazar `damianrm1299-oss` por tu usuario real de GitHub.
 
 ### Archivos donde hay que cambiarlo:
 
@@ -132,7 +132,7 @@ Tienes que reemplazar `TU-USUARIO` por tu usuario real de GitHub.
 
 1. Abre cada archivo en GitHub
 2. Pulsa el icono del **lápiz ✏️** (arriba a la derecha del archivo)
-3. Usa **Ctrl+F** para buscar `TU-USUARIO`
+3. Usa **Ctrl+F** para buscar `damianrm1299-oss`
 4. Sustitúyelo por tu username real (ejemplo: si tu user es `damianrm`, queda `damianrm`)
 5. Abajo del todo: **"Commit changes"**
 
@@ -153,7 +153,7 @@ Repite para los 4 archivos.
 1. Ve a 👉 **https://adsense.google.com**
 2. **"Empezar"** → Entra con tu cuenta Google (`damianrm1299@gmail.com`)
 3. Introduce:
-   - URL del sitio: `https://TU-USUARIO.github.io/financeworld-pro/`
+   - URL del sitio: `https://damianrm1299-oss.github.io/financeworldpro/`
    - País: España
 4. Acepta términos
 5. Configura tu cuenta bancaria (IBAN español) para cobrar
@@ -179,7 +179,7 @@ Marca cada paso a medida que lo completes:
 - [ ] **2.** Repositorio `financeworld-pro` creado (Public)
 - [ ] **3.** Los 11 archivos subidos al repositorio
 - [ ] **4.** GitHub Pages activado, URL funcionando
-- [ ] **5.** `TU-USUARIO` reemplazado en index.html, robots.txt, sitemap.xml, README.md
+- [ ] **5.** `damianrm1299-oss` reemplazado en index.html, robots.txt, sitemap.xml, README.md
 - [ ] **6.** Web compartida en redes durante 2-4 semanas
 - [ ] **7.** Cuenta de AdSense creada
 - [ ] **8.** Publisher ID obtenido (`ca-pub-XXXXXXXX`)
@@ -220,7 +220,7 @@ Ejemplos:
 1. 🌐 **Crear cuenta GitHub** (3 min) — `https://github.com/signup`
 2. 📦 **Subir archivos** desde `C:\Users\34642\financeworld-pro\` (3 min)
 3. ⚡ **Activar GitHub Pages** en Settings → Pages (1 min)
-4. ✏️ **Reemplazar `TU-USUARIO`** en 4 archivos (2 min)
+4. ✏️ **Reemplazar `damianrm1299-oss`** en 4 archivos (2 min)
 5. ⏳ **Esperar 2-4 semanas** con algo de tráfico
 6. 💰 **Solicitar AdSense** y reemplazar Publisher ID (5 min)
 
