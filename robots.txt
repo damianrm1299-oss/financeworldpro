@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Permitir a Google AdSense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Permitir a Google AdsBot
+User-agent: AdsBot-Google
+Allow: /
+
+# Sitemap
+Sitemap: https://TU-USUARIO.github.io/financeworld-pro/sitemap.xml
